@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Selection Game</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="apple">Apples</string>
+    <string name="lemon">Lemons</string>
+    <string name="mango">Mangoes</string>
+    <string name="peach">Peaches</string>
+    <string name="strawberry">Strawberries</string>
+    <string name="tomato">Tomatoes</string>
+    
+    <string name="btn_Reset">Reset</string>
+    <string name="btn_Exit">Exit</string>
+    
+    <string name="find_All_text">Find All</string>
+    <item type="id" name="focus_fruit_no"/>
+    <item type="id" name="focus_fruit_count"/>
+    <item type="id" name="fruit_no"/>
+    <item type="id" name="cnt"/>
+    <item type="id" name="random_positions"/>
+    
+
+</resources>

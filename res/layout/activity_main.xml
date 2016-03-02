@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="30dp"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="30dp" >
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/txt_Find_All"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gridView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/find_All_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView_Fruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_Find_All"
+        android:layout_alignBottom="@+id/txt_Find_All"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/txt_Find_All"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button_rst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txt_Find_All"
+        android:layout_marginBottom="48dp"
+        android:text="@string/btn_Reset" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_rst"
+        android:layout_alignBottom="@+id/button_rst"
+        android:layout_alignRight="@+id/textView_Fruit"
+        android:text="@string/btn_Exit" />
+
+</RelativeLayout>
